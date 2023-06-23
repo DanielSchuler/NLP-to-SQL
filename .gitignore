@@ -1,0 +1,31 @@
+.env
+
+/environment/
+
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore local development settings
+*.env
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+*.pydevproject
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+
+# Ignore package build directories
+dist/
+build/
+*.egg-info/
+
+# Ignore virtual environment folders (assuming they are in the root directory)
+venv/
+env/
